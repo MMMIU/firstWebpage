@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+#worldMap {
+	background-color: rgb(245, 245, 245);
+	width: 100%;
+	height: 700px;
+}
+
+#worldMap .map {
+	height: 550px;
+	width: 1200px;
+	margin: 0px auto;
+	background-image: url("../images/worldmap.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+#worldMap .oneDot {
+	position: absolute;
+}
+
+#worldMap .oneDot p {
+	position: absolute;
+	left: 57%;
+	top: 44%;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+#worldMap .positionSize1 {
+	height: 140px;
+	width: 140px;
+	left: 72%;
+	top: 160px;
+}
+
+#worldMap .positionSize2 {
+	height: 200px;
+	width: 200px;
+	left: 68.5%;
+	top: 120px;
+}
+
+#worldMap .positionSize3 {
+	height: 100px;
+	width: 100px;
+	left: 80%;
+	top: 130px;
+}
+
+#worldMap .positionSize4 {
+	height: 100px;
+	width: 100px;
+	left: 11%;
+	top: 110px;
+}
+
+#worldMap .positionSize5 {
+	height: 120px;
+	width: 120px;
+	left: 22%;
+	top: 115px;
+}
+
+#worldMap .dot {
+	width: 10px;
+	height: 10px;
+	background-color: #66cae2;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -4px;
+	margin-left: -4px;
+}
+
+#worldMap .circle {
+	border: 1px solid #66cae2;
+	border-radius: 50%;
+	position: absolute;
+}
+
+#worldMap .circle1 {
+	animation: explode 6s infinite;
+}
+#worldMap .circle2 {
+	animation: explode 6s infinite;
+	animation-delay:0.3s;
+}
+#worldMap .circle3 {
+	animation: explode 6s infinite;
+	animation-delay:0.6s;
+	background-color: rgba(134, 213, 230, 0.2);
+}
+
+#worldMap .icons {
+	cursor: pointer;
+	width: 70%;
+	height: 50px;
+	margin: 0px auto;
+}
+
+#worldMap .oneicon {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+#worldMap .oneicon img {
+	margin-left: 30px;
+	height: 50px;
+	width: auto;
+	float: left;
+}
+
+#worldMap .oneicon p {
+	float: left;
+	line-height: 50px;
+	font-size: 12px;
+	font-weight: 300;
+	margin-left: 10px;
+}
+@keyframes explode {
+  0% {
+    width: 0px;
+    height: 0px;
+    left: 50%;
+    top: 50%;
+    opacity: 100%;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+}

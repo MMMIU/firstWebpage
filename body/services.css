@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+#services {
+	height: 600px;
+	width: 100%;
+	min-width: 1050px;
+}
+
+#services .bigBlock {
+	width: 80%;
+	height: 450px;
+	margin: 0px auto;
+}
+
+#services .block {
+	float: left;
+	width: 33%;
+	height: 50%;
+}
+
+#services .items {
+	width: 80%;
+	height: 200px;
+	margin: 50px 10%;
+}
+
+#services .it {
+	width: 70px;
+	height: 110px;
+	margin: 0px auto 10px auto;
+	transition: 0.3s;
+}
+
+#services .it:hover {
+	color: #66cae2;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+#services .icon {
+	width: 70px;
+	height: 70px;
+	margin: 0px auto;
+	background-size: 100%;
+	transition: 0.3s;
+	background-image: url("../images/blake.png");
+}
+
+#services a:link, #services a:visited {
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+#services a:hover {
+	cursor: pointer;
+	color: #66cae2;
+	transition: 0.3s;
+}
+
+#services .title {
+	text-align: center;
+	margin: 0px auto;
+	width: 70px;
+	font-size: 17px;
+	line-height: 40px;
+}
+
+#services .line1 {
+	text-align: center;
+	color: rgb(120, 120, 120);
+	font-weight: 200;
+}
+
+#services .text {
+	text-align: center;
+	font-size: 13px;
+	transition: 0.3s;
+}

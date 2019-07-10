@@ -1,0 +1,132 @@
+@charset "UTF-8";
+#headerMain {
+  width: 100%;
+  min-width: 1200px;
+  height: 410px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 90px;
+}
+#headerBackground {
+	min-width: 1200px;
+	position: absolute;
+	width: 100%;
+	height: 640px;
+	background-image: url("../images/1.png");
+	background-size: 2100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	transition:0.3s;
+}
+#headerMain .largeLink {
+  height: 100%;
+  width: 100%;
+}
+#contentBox {
+  width: 85%;
+}
+#headerMain .title {
+  width: 1020px;
+  color: white;
+  margin: 90px auto auto auto;
+}
+#headerMain .title h1 {
+  font-weight: 400;
+  font-size: 40px;
+}
+#headerMain .title h3 {
+  margin-top: 10px;
+}
+#headerMain .title h3,
+#headerMain .go {
+  font-size: 20px;
+  font-weight: 300;
+}
+#headerMain .go {
+  width: 80px;
+  line-height: 10px;
+  margin-top: 50px;
+  transition: 0.3s;
+}
+#headerGo{
+  transition: 0.3s;
+}
+#headerGo:hover {
+  color: #66cae2;
+  transition: 0.3s;
+}
+#headerMain .go hr {
+  width: 100%;
+  height: 4px;
+  color: white;
+  border: none;
+  background-color: #66cae2;
+  margin-top:12px;
+}
+#headerMain .buttonBar {
+  position: absolute;
+  top: 390px;
+  width: 100%;
+  height: 20px;
+  min-width: 1000px;
+}
+#headerMain .buttons {
+  width: 250px;
+  height: 20px;
+  margin: 0px auto;
+}
+#headerMain .buttons ul {
+  list-style: none;
+  display: inline;
+  margin: 0px auto;
+}
+#headerMain .buttons ul li {
+  height: 100%;
+  width: 40px;
+  margin: auto 5px;
+  float: left;
+  cursor: pointer;
+}
+#headerMain a {
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+#headerMain .button {
+  height: 5px;
+  width: 40px;
+}
+#headerMain .buttonDark {
+  background-color: rgb(71, 73, 78);
+}
+#headerMain .buttonLight {
+  background-color: white;
+}
+#headerMain .buttonAnim {
+  width: 40px;
+  height: 5px;
+  background-color: white;
+  animation: animationF 10s linear;
+}
+@keyframes animationF {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.imageEnter{
+	animation: imageEnter 0.5s;
+}
+@keyframes imageEnter{
+	0%{
+		opacity:0;
+		transform: translateY(30px);
+	}
+	100%{
+		opacity:100%;
+		transform: translateY(0px);
+	}
+}

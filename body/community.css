@@ -1,0 +1,70 @@
+@charset "UTF-8";
+#community {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(245, 245, 245);
+}
+#community .bigBlock {
+  width: 1200px;
+  height: 300px;
+  margin: 0px auto;
+}
+#community .block {
+  width: 31%;
+  height: 100%;
+  float: left;
+  margin: 0 1%;
+}
+#community .imgDiv {
+  width: 100%;
+  height: 75%;
+  background-color: white;
+  cursor: pointer;
+}
+#community .imgDiv:hover {
+  box-shadow: 0 0 10px rgba(120, 120, 120, 0.5);
+}
+#community .img {
+  width: 100%;
+  height: 80%;
+  background-size: 100%;
+  background-position: 50% 0%;
+  transition: 0.3s;
+}
+#community .img1 {
+  background-image: url("../images/comm1.jpg");
+}
+#community .img2 {
+  background-image: url("../images/comm2.jpg");
+}
+#community .img3 {
+  background-image: url("../images/comm3.jpg");
+}
+#community .imgMag {
+  background-size: 110%;
+  transition: 0.3s;
+}
+#community .title {
+  height: 20%;
+  width: 89.8%;
+  margin: 0px auto;
+  outline: 1px solid #66cae2;
+  line-height: 45px;
+  padding-left: 10%;
+  font-size: 15px;
+}
+#community .text {
+  margin-top: 20px;
+  line-height: 25px;
+  font-size: 13px;
+}
+#community a:link,
+#community a:visited {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+#community a:hover {
+  color: #66cae2;
+  transition: 0.3s;
+}

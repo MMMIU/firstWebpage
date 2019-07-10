@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+#countryList {
+	position: absolute;
+	z-index: 100000;
+	top: 45px;
+	height: 450px;
+	width: 200px;
+	background-color: rgb(39, 42, 45);
+	display:none;
+}
+
+#countryList .table {
+	width: 100%;
+	line-height: 25px;
+	padding-top: 13px;
+}
+
+#countryList tr {
+	text-align: left;
+}
+
+#countryList tr {
+	color:rgb(235,235,235);
+	font-weight: 300;
+	font-size: 13px;
+	transition: 0.1s;
+	text-decoration: none;
+}
+
+#countryList tr:hover {
+	transition: 0.3s;
+	color: #66cae2;
+}
+
+#countryList .table .left {
+	padding-left: 15px;
+	width: 110px;
+	height: 30px;
+	float: left;
+}
+
+#countryList .right {
+	float: left;
+}
+
+#countryList hr {
+	height: 1px;
+	background-color: rgb(64, 69, 74);
+	border: none;
+}

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+#slogan, #slogan2, #slogan3, #slogan4, #slogan5 {
+	margin: 30px auto -10px auto;
+	width: 100%;
+	height: 200px;
+	color: rgb(60, 60, 60);
+	text-align: center;
+	background-color: white;
+}
+
+#slogan2, #slogan4, #slogan5 {
+	margin-top: 60px;
+	height: 80px;
+}
+
+#slogan3, #slogan4, #slogan5 {
+	height: 160px;
+	margin-top: 0px;
+	padding-top: 80px;
+	background-color: rgb(245, 245, 245);
+}
+#slogan5{
+	height:280px;
+}
+#slogan .cover {
+	width: 100%;
+	min-width: 1200px;
+	height: 30px;
+	position: absolute;
+	top: 640px;
+	background-color: white;
+}
+
+#slogan .image {
+	height: 60px;
+	width: 100%;
+	margin: 20px auto;
+}
+
+#slogan .image img {
+	height: 100%;
+	width: auto;
+}
+
+#slogan h2, #slogan2 h2, #slogan3 h2, #slogan4 h2, #slogan5 h2 {
+	font-weight: 400;
+	font-size: 25px;
+}
+
+#slogan .content, #slogan2 .content, #slogan3 .content, #slogan4 .content,
+	#slogan5 .content {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-weight: 400;
+	font-size: 15px;
+	text-decoration: none;
+	color: rgb(60, 60, 60);
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+#slogan .content:hover, #slogan2 .content:hover, #slogan3 .content:hover,
+	#slogan4 .content:hover, #slogan5 .content:hover {
+	transition: 0.3s;
+	color: #66cae2;
+}
+
+#slogan5 .friends {
+	width: 70%;
+	height: 100px;
+	margin: 40px auto;
+}
+
+#slogan5 .imgDiv {
+	height: 100%;
+	width: 20%;
+	float: left;
+}
+
+#slogan5 .imgDiv img {
+	height: 100%;
+	width: auto;
+	float: left;
+}
