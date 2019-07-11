@@ -1,0 +1,11 @@
+@charset "UTF-8";
+#thirdPanel {
+  width: 700px;
+  height: 640px;
+  position: absolute;
+  top: 0px;
+  left:-1000px;
+  transition:0.5s;
+  background-color: rgb(48, 53, 55);
+  z-index:-20000;
+}

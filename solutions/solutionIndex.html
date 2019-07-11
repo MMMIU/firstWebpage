@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>解决方案</title>
+<link rel="stylesheet" type="text/css" href="./solutionIndex.css">
+<link rel="stylesheet" type="text/css" href="./countryList.css">
+<link rel="stylesheet" type="text/css" href="./headerUp.css">
+<link rel="stylesheet" type="text/css" href="./headerMain.css">
+<link rel="stylesheet" type="text/css" href="./leftMenu.css">
+<link rel="stylesheet" type="text/css" href="./menuItem1.css">
+<link rel="stylesheet" type="text/css" href="./menuItem2.css">
+<link rel="stylesheet" type="text/css" href="./menuItem3.css">
+<link rel="stylesheet" type="text/css" href="./secondPanel.css">
+<link rel="stylesheet" type="text/css" href="./thirdPanel.css">
+<link rel="stylesheet" type="text/css" href="./floats.css">
+<script>
+	var scrollTop = 0;
+</script>
+<script type="text/javascript" src="../body/floats.js">
+	
+</script>
+<script type="text/javascript" src="./solutionIndex.js">
+	
+</script>
+<script type="text/javascript" src="./countryList.js">
+	
+</script>
+<script type="text/javascript" src="./leftMenu.js">
+	
+</script>
+<script type="text/javascript" src="./solutionIndex.js">
+	
+</script>
+<script type="text/javascript" src="./floats.js">
+	
+</script>
+</head>
+<body>
+	<div id="header">
+		<div id="topNav">
+			<div class="topNavUp">
+				<div id="menuLogo" onmouseenter="showMenu()"
+					onmouseleave="hideMenu()">
+					<img alt="Menu" src="../images/menuLogo.png">
+				</div>
+				<div class="logo" onclick='window.location.href="../index.html"'>
+					<img class="logoImage" src="../images/logo.png" alt="Logo">
+					<div class="wdnmd">
+						<div class="lines">
+							<div class="line" style="right: 4px;"></div>
+							<div class="line" style="right: 34px;"></div>
+							<div class="line" style="right: 64px;"></div>
+							<div class="line" style="right: 94px;"></div>
+							<div class="line" style="right: 124px;"></div>
+							<div class="line" style="right: 154px;"></div>
+						</div>
+					</div>
+				</div>
+				<ul class="navList">
+					<li><a class="navLink" href="#"> <img class="shoppingCart"
+							src="../images/shoppingCart.png" alt="shoppingCart"> 购物车
+					</a></li>
+					<li><a class="navLink" href="#">购物车 </a></li>
+					<li><a class="navLink" href="#">控制台</a></li>
+					<li><a class="navLink" href="#">文档</a></li>
+					<li><a class="navLink" href="#">备案</a></li>
+					<li><a class="navLink" href="#">邮箱</a></li>
+					<li><a class="navLink" href="#">登录</a></li>
+				</ul>
+				<div class="Clist" onmouseenter="showCountryList()"
+					onmouseleave="closeCountryList()">
+					中国站
+					<div id="countryList">
+						<table class="table">
+							<tr>
+								<td class="left">中国</td>
+								<td class="right">简体中文</td>
+							</tr>
+							<tr>
+								<td class="left">International</td>
+								<td class="right">English</td>
+							</tr>
+							<tr>
+								<td class="left"></td>
+								<td class="right">简体中文</td>
+							</tr>
+							<tr>
+								<td class="left"></td>
+								<td class="right">한국어</td>
+							</tr>
+							<tr>
+								<td class="left"></td>
+								<td class="right">繁體中文</td>
+							</tr>
+							<tr>
+								<td class="left"></td>
+								<td class="right">Deutsch</td>
+							</tr>
+							<tr>
+								<td class="left"></td>
+								<td class="right">Français</td>
+							</tr>
+						</table>
+						<hr>
+						<table class="table">
+							<tr>
+								<td class="left">Austrilia</td>
+								<td class="right">English</td>
+							</tr>
+							<tr>
+								<td class="left">Malasia</td>
+								<td class="right">English</td>
+							</tr>
+							<tr>
+								<td class="left">Singapore</td>
+								<td class="right">English</td>
+							</tr>
+							<tr>
+								<td class="left">United States</td>
+								<td class="right">English</td>
+							</tr>
+							<tr>
+								<td class="left">中國香港</td>
+								<td class="right">繁體中文</td>
+							</tr>
+							<tr>
+								<td class="left">中國台灣</td>
+								<td class="right">繁體中文</td>
+							</tr>
+							<tr>
+								<td class="left">日本</td>
+								<td class="right">日本語</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="searchBar">
+					<input class="input" type="text" placeholder="搜索">
+					<div class="scopeButton"></div>
+				</div>
+			</div>
+			<div class="topNavDown">
+				<ul class="navListDown">
+					<li><a class="navLink" href="#">最新活动</a></li>
+					<li><a class="navLink" href="#">产品</a></li>
+					<li><a class="navLink" href="./solutionIndex.html">解决方案</a></li>
+					<li><a class="navLink" href="#">定价</a></li>
+					<li><a class="navLink" href="#">ET大脑</a></li>
+					<li><a class="navLink" href="#">数据智能</a></li>
+					<li><a class="navLink" href="#">安全</a></li>
+					<li><a class="navLink" href="#">云市场</a></li>
+					<li><a class="navLink" href="#">支持与服务</a></li>
+					<li><a class="navLink" href="#">合作伙伴</a></li>
+				</ul>
+				<div class="register" onclick="window.open('http://www.baidu.com')">
+					<span>免费注册</span>
+				</div>
+			</div>
+		</div>
+		<div id="headerMain">
+			<div id="contentBox">
+				<div class="title">
+					<h1>云+端+智能 一站式解决方案</h1>
+					<h3>
+						沉淀阿里云十年、百万用户最全面的业务场景，结合阿里巴巴集团技术创新<br>能力，提供云原生、数据智能、零售、金融、制造等多个领域的解决方案。
+					</h3>
+					<div class="go">方案咨询</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="leftMenu" onmouseenter="showMenu()" onmouseleave="hideMenu()">
+		<div class="menuBackground"></div>
+		<ul class="itemsList" onmouseenter="showPanel()"
+			onmouseleave="hidePanel()">
+			<li>
+				<div id="leftMenuItem1" class="item" onmouseenter="showItem(1)">阿里云计算</div>
+			</li>
+			<li>
+				<div id="leftMenuItem2" class="item"
+					onmouseenter="showItem(2);showSpecialItem()"
+					onmouseleave="closeSpecial()">产品</div>
+			</li>
+			<li>
+				<div id="leftMenuItem3" class="item" onmouseenter="showItem(3)">解决方案</div>
+			</li>
+			<li>
+				<div id="leftMenuItem4" class="item" onmouseenter="showItem(4)">云市场</div>
+			</li>
+			<li>
+				<div id="leftMenuItem5" class="item" onmouseenter="showItem(5)">开发者</div>
+			</li>
+			<li>
+				<div id="leftMenuItem6" class="item" onmouseenter="showItem(6)">支持与服务</div>
+			</li>
+			<li>
+				<div id="leftMenuItem7" class="item" onmouseenter="showItem(7)">云栖社区</div>
+			</li>
+			<li>
+				<div id="leftMenuItem8" class="item" onmouseenter="showItem(8)">阿里云大学</div>
+			</li>
+			<li>
+				<div id="leftMenuItem9" class="item" onmouseenter="showItem(9)">合作与生态</div>
+			</li>
+		</ul>
+		<hr>
+		<ul class="itemsList">
+			<li>
+				<div class="item">政府通道</div>
+			</li>
+			<li>
+				<div class="item">企业孵化</div>
+			</li>
+			<li>
+				<div class="item">联系我们</div>
+			</li>
+		</ul>
+		<span class="contact">售前咨询 95187转1</span>
+		<div id="secondPanel" onmouseenter="showPanel()"
+			onmouseleave="hidePanel()">
+			<div id="secondPanelBackground"></div>
+			<div id="menuItem1">
+				<table class="table">
+					<tr>
+						<th class="headers">阿里云计算</th>
+						<th class="headers">入门</th>
+						<th class="headers">动态</th>
+					</tr>
+					<tr>
+						<td class="line">
+							<hr>
+						</td>
+						<td class="line">
+							<hr>
+						</td>
+						<td class="line">
+							<hr>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<ul>
+								<li class="li"><a href="#">关于阿里云</a></li>
+								<li class="li"><a href="#">全球基础设施</a></li>
+								<li class="li"><a href="#">客户案例</a></li>
+								<li class="li"><a href="#">量子计算云平台</a></li>
+								<li class="li"><a href="#">信任中心</a></li>
+								<li class="li"><a href="#">合规性</a></li>
+								<li class="li"><a href="#">分析师报告</a></li>
+								<li class="li"><a href="#">加入阿里云</a></li>
+								<li class="li"><a href="#">下载阿里云APP</a></li>
+							</ul>
+						</td>
+						<td>
+							<ul>
+								<li class="li"><a href="#">新手学堂</a></li>
+								<li class="li"><a href="#">定价</a></li>
+								<li class="li"><a href="#">免费套餐</a></li>
+							</ul>
+						</td>
+						<td class="content">
+							<ul>
+								<li class="li"><a href="#">产品动态</a></li>
+								<li class="li"><a href="#"> 新品发布 <span>NEW</span>
+								</a></li>
+								<li class="li"><a href="#">云栖博客</a></li>
+								<li class="li"><a href="#">码上公益</a></li>
+								<li class="li"><a href="#">媒体报道</a></li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="menuItem2">
+				<ul class="itemsList" onmouseenter="showThirdPanel()"
+					onmouseleave="hideThirdPanel()">
+					<li>
+						<div id="secondLeftMenuItem1" class="item"
+							onmouseenter="showThirdItem(1)">wdnmd</div>
+					</li>
+					<li>
+						<div id="secondLeftMenuItem2" class="item"
+							onmouseenter="showThirdItem(2)">产品</div>
+					</li>
+					<li>
+						<div id="secondLeftMenuItem3" class="item"
+							onmouseenter="showThirdItem(3)">解决方案</div>
+					</li>
+					<li>
+						<div id="secondLeftMenuItem4" class="item"
+							onmouseenter="showThirdItem(4)">云市场</div>
+					</li>
+					<li>
+						<div id="secondLeftMenuItem5" class="item"
+							onmouseenter="showThirdItem(5)">开发者</div>
+					</li>
+					<li>
+						<div id="secondLeftMenuItem6" class="item"
+							onmouseenter="showThirdItem(6)">支持与服务</div>
+					</li>
+					<li>
+						<div id="secondLeftMenuItem7" class="item"
+							onmouseenter="showThirdItem(7)">云栖社区</div>
+					</li>
+					<li>
+						<div id="secondLeftMenuItem8" class="item"
+							onmouseenter="showThirdItem(8)">阿里云大学</div>
+					</li>
+					<li>
+						<div id="secondLeftMenuItem9" class="item"
+							onmouseenter="showThirdItem(9)">合作与生态</div>
+					</li>
+				</ul>
+			</div>
+			<div id="menuItem3">
+				<table class="table">
+					<tr>
+						<th class="headers">通用解决方案</th>
+						<th class="headers">行业解决方案</th>
+						<th class="headers">安全解决方案</th>
+						<th class="headers">大数据解决方案</th>
+					</tr>
+					<tr>
+						<td class="line">
+							<hr>
+						</td>
+						<td class="line">
+							<hr>
+						</td>
+						<td class="line">
+							<hr>
+						</td>
+						<td class="line">
+							<hr>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<ul>
+								<li class="li"><a href="#">网站</a></li>
+								<li class="li"><a href="#">IPv6</a></li>
+								<li class="li"><a href="#">企业互联网架构</a></li>
+								<li class="li"><a href="#">网络</a></li>
+								<li class="li"><a href="#">云存储</a></li>
+								<li class="li"><a href="#">迁移</a></li>
+								<li class="li"><a href="#"> 区块链 <span>HOT</span>
+								</a></li>
+								<li class="li"><a href="#">SAP云</a></li>
+								<li class="li"><a href="#">VMware云</a></li>
+								<li class="li"><a href="#">智能客服</a></li>
+								<li class="li"><a href="#">AIOps故障管理</a></li>
+								<li class="li"><a href="#">企业效能</a></li>
+								<li class="li"><a href="#">容器服务深度学习</a></li>
+								<li class="li"><a href="#">数据传输</a></li>
+								<li class="li"><a href="#">数据库灾备</a></li>
+								<li class="li"><a href="#">企业级分布式数据库</a></li>
+								<li class="li"><a href="#"> 可信数字内容版权服务 <span>NEW</span>
+								</a></li>
+								<li class="li"><a href="#">移动研发平台</a></li>
+								<li class="li"><a href="#">钉钉小程序</a></li>
+								<li class="li"><a href="#"> 短视频 <span>NEW</span>
+								</a></li>
+								<li class="li"><a href="#"> 小程序云 <span>NEW</span>
+								</a></li>
+							</ul>
+						</td>
+						<td>
+							<ul>
+								<li class="li"><a href="#"> 新零售 <span>HOT</span>
+								</a></li>
+								<li class="li"><a href="#">新金融</a></li>
+								<li class="li"><a href="#">新创造</a></li>
+								<li class="li"><a href="#">新能源</a></li>
+								<li class="li"><a href="#">新技术</a></li>
+								<li class="li"><a href="#">智能工业</a></li>
+								<li class="li"><a href="#">大游戏</a></li>
+								<li class="li"><a href="#">大视频</a></li>
+								<li class="li"><a href="#">大传媒</a></li>
+								<li class="li"><a href="#">大健康</a></li>
+								<li class="li"><a href="#"> 大政务 <span>HOT</span>
+								</a></li>
+								<li class="li"><a href="#">体育</a></li>
+								<li class="li"><a href="#">交通物流</a></li>
+								<li class="li"><a href="#">教育</a></li>
+								<li class="li"><a href="#">房地产</a></li>
+								<li class="li"><a href="#">汽车</a></li>
+							</ul>
+						</td>
+						<td class="content">
+							<ul>
+								<li class="li"><a href="#">等保合规安全</a></li>
+								<li class="li"><a href="#"> 新零售安全 <span>NEW</span>
+								</a></li>
+								<li class="li"><a href="#">政务云安全</a></li>
+								<li class="li"><a href="#">互联网金融安全</a></li>
+								<li class="li"><a href="#">游戏安全</a></li>
+								<li class="li"><a href="#">社交/媒体spam</a></li>
+								<li class="li"><a href="#">混合云态势感知</a></li>
+								<li class="li"><a href="#"> IPv6云安全 <span>NEW</span>
+								</a></li>
+							</ul>
+						</td>
+						<td class="content">
+							<ul>
+								<li class="li"><a href="#"> 智慧场馆 <span>NEW</span>
+								</a></li>
+								<li class="li"><a href="#">智能设备搜索</a></li>
+								<li class="li"><a href="#">大数据仓库</a></li>
+								<li class="li"><a href="#">云上数据集成</a></li>
+								<li class="li"><a href="#">台风路径分析</a></li>
+								<li class="li"><a href="#">工业大数据服务</a></li>
+								<li class="li"><a href="#">企业数据服务</a></li>
+								<li class="li"><a href="#">智能旅游</a></li>
+								<li class="li"><a href="#">手机数据</a></li>
+								<li class="li"><a href="#">VR应用开发</a></li>
+								<li class="li"><a href="#"> 人地关系数据智能 <span>NEW</span>
+								</a></li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="menuItem4">4</div>
+			<div id="menuItem5">5</div>
+			<div id="menuItem6">6</div>
+			<div id="menuItem7">7</div>
+			<div id="menuItem8">8</div>
+			<div id="menuItem9">9</div>
+		</div>
+		<div id="thirdPanel" onmouseenter="showThirdPanel()"
+			onmouseleave="hideThirdPanel()">
+			<div id="thirdMenuItem1">11</div>
+			<div id="thirdMenuItem2">22</div>
+			<div id="thirdMenuItem3">33</div>
+			<div id="thirdMenuItem4">44</div>
+			<div id="thirdMenuItem5">55</div>
+			<div id="thirdMenuItem6">66</div>
+			<div id="thirdMenuItem7">77</div>
+			<div id="thirdMenuItem8">88</div>
+			<div id="thirdMenuItem9">99</div>
+		</div>
+	</div>
+	<div id="navBar" class="navBarPosition">
+		<div class="bar">
+			<div id="indestrySolution" class="selected" onclick="select(1)">行业解决方案</div>
+			<div id="generalSolution" onclick="select(2)">通用解决方案</div>
+			<div id="solutionConsult" style="display:none">方案咨询</div>
+		</div>
+	</div>
+	<div id="body">
+		<div id="indestrySolutionDetail">1</div>
+		<div id="generalSolutionDetail">1</div>
+	</div>
+	<div id="floats">
+		<div class="contactDiv" onmouseenter="showDetail()"
+			onmouseleave="hideDetail()">
+			<div class="contact"></div>
+			<div id="bridge" style="display: none"></div>
+			<div id="detail" style="display: none">
+				<img class="close" src="../images/close.png" onclick="hideDetail()">
+			</div>
+		</div>
+		<div id="back" style="display: none" onclick="scrollBack()"></div>
+	</div>
+</body>
+</html>

@@ -59,7 +59,7 @@ function changeTitleAndImage(titleIndex) {
 	document.getElementById("headerBackground").style.backgroundImage = "";
 	setTimeout(() => {
 	document.getElementById("headerBackground").style.backgroundImage = "url(./images/"
-			+ (titleIndex + 1) + ".png)";
+			+ (titleIndex + 1) + ".jpg)";
 	     document.getElementById("headerBackground").className = "imageEnter";
 	  },1);
 }
